@@ -16,7 +16,7 @@
 
 A package to easily make use of [Element Plus Icons](https://github.com/element-plus/element-plus-icons) in your Laravel Blade views.
 
-For a full list of available icons see [the SVG directory](resources/svg) or preview them at [preview.gravity-ui.com/icons](https://preview.gravity-ui.com/icons/).
+For a full list of available icons see [the SVG directory](resources/svg) or preview them at [element-plus.org](https://element-plus.org/en-US/component/icon.html).
 
 ## Requirements
 
