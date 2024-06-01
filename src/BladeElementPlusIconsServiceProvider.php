@@ -17,7 +17,7 @@ final class BladeElementPlusIconsServiceProvider extends ServiceProvider
         $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
             $config = $container->make('config')->get('blade-element-plus-icons', []);
 
-            $factory->add('gravity-ui-icons', array_merge(['path' => __DIR__ . '/../resources/svg'], $config));
+            $factory->add('element-plus-icons', array_merge(['path' => __DIR__ . '/../resources/svg'], $config));
         });
     }
 
